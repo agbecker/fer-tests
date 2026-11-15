@@ -1,0 +1,12 @@
+{
+  "n": 32,
+  "img_size": 96,
+  "n_iters": 20000,
+  "keep": "best",
+  "base_size": 256,
+  "pixel_step": 0.00784313725490196,
+  "train_coord_range": 0.12156862745098039,
+  "full_coord_range": 0.37254901960784315,
+  "train_mse": 2.1390922483988106e-05,
+  "test_mse": 0.27844348549842834
+}

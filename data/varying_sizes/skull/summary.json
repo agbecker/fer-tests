@@ -1,0 +1,86 @@
+[
+  {
+    "n": 16,
+    "img_size": 48,
+    "n_iters": 20000,
+    "keep": "best",
+    "base_size": 256,
+    "pixel_step": 0.00784313725490196,
+    "train_coord_range": 0.058823529411764705,
+    "full_coord_range": 0.1843137254901961,
+    "train_mse": 0.0006148366956040263,
+    "test_mse": 0.26551157236099243
+  },
+  {
+    "n": 32,
+    "img_size": 96,
+    "n_iters": 20000,
+    "keep": "best",
+    "base_size": 256,
+    "pixel_step": 0.00784313725490196,
+    "train_coord_range": 0.12156862745098039,
+    "full_coord_range": 0.37254901960784315,
+    "train_mse": 2.1390922483988106e-05,
+    "test_mse": 0.27844348549842834
+  },
+  {
+    "n": 64,
+    "img_size": 192,
+    "n_iters": 20000,
+    "keep": "best",
+    "base_size": 256,
+    "pixel_step": 0.00784313725490196,
+    "train_coord_range": 0.24705882352941178,
+    "full_coord_range": 0.7490196078431373,
+    "train_mse": 3.321822077850811e-05,
+    "test_mse": 0.1704786866903305
+  },
+  {
+    "n": 128,
+    "img_size": 384,
+    "n_iters": 20000,
+    "keep": "best",
+    "base_size": 256,
+    "pixel_step": 0.00784313725490196,
+    "train_coord_range": 0.4980392156862745,
+    "full_coord_range": 1.5019607843137255,
+    "train_mse": 8.620633889222518e-05,
+    "test_mse": 0.12501093745231628
+  },
+  {
+    "n": 256,
+    "img_size": 768,
+    "n_iters": 20000,
+    "keep": "best",
+    "base_size": 256,
+    "pixel_step": 0.00784313725490196,
+    "train_coord_range": 1.0,
+    "full_coord_range": 3.007843137254902,
+    "train_mse": 0.000613215088378638,
+    "test_mse": 0.1539710909128189
+  },
+  {
+    "n": 512,
+    "img_size": 1536,
+    "n_iters": 20000,
+    "keep": "best",
+    "base_size": 256,
+    "pixel_step": 0.00784313725490196,
+    "train_coord_range": 2.003921568627451,
+    "full_coord_range": 6.019607843137255,
+    "train_mse": 0.0014361286303028464,
+    "test_mse": 0.19143010675907135
+  },
+  {
+    "n": 1024,
+    "img_size": 3072,
+    "n_iters": 20000,
+    "keep": "best",
+    "base_size": 256,
+    "pixel_step": 0.00784313725490196,
+    "train_coord_range": 4.011764705882353,
+    "full_coord_range": 12.04313725490196,
+    "train_mse": 0.0023334946017712355,
+    "test_mse": 0.10947506874799728
+  }
+]
